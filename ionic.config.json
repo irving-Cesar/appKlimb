@@ -1,0 +1,7 @@
+{
+  "name": "klimbapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

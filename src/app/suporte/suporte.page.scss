@@ -1,0 +1,62 @@
+ion-toolbar{
+    --background: rgba(0, 173, 0, 1);
+};
+
+#botao-back-header{
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+#title{
+    margin-top: 5px;
+    margin-left: 5em;
+}
+
+div#label-text{
+    text-align: center;
+}
+
+ion-item.email, ion-item.telefone{
+    border-style: solid;
+    border-width: 0.05em;
+    border-radius: 1em;
+    position: relative;
+    margin-top: 0.5em;
+    --background:rgb(4, 124, 4);
+}
+
+.label-item-email, .label-item-telefone{
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#top-email, #top-telefone{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div.imagem{
+    height: 8em;
+    width: 8em;
+    border-radius: 1.5em;
+    border-style: hidden;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ion-content.background {
+    --background: linear-gradient(197deg, rgba(0, 173, 0, 1) 0%, rgba(0, 173, 0, 1) 13.5%, rgba(0, 173, 0, 1) 33.33%, rgba(115, 130, 115, 1) 100%) !important;
+}

@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ionbackbutton>
+        <ion-icon id="botao-menu-header" name="menu"></ion-icon>
+      </ionbackbutton>
+    </ion-buttons>
+
+    <ion-title id="title">Cadastrar Projeto</ion-title>
+
+    <ion-buttons slot="end">
+      <ionbackbutton>
+        <ion-icon id="botao-config-header" name="settings"></ion-icon>
+      </ionbackbutton>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Nome do projeto:</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="area-descri-projeto">
+          <ion-label position="floating">Descrição do projeto</ion-label>
+          <ion-textarea class="area-descri-projeto"></ion-textarea>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Membros do projeto</ion-label>
+          <ion-textarea></ion-textarea>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Email para contato:</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label>Tipo de projeto</ion-label>
+            <ion-select value="brown" okText="Confirmar" cancelText="Cancelar">
+              <ion-select-option value="Jogos">Jogos</ion-select-option>
+              <ion-select-option value="Mercado">Mercado</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-col>
+      <h5 class="label-midia"><b>Mídia</b></h5>
+      <div class="imagem">
+        <img id="img-upload" src="https://www.flaticon.com/svg/static/icons/svg/685/685669.svg" />
+      </div>
+    </ion-col>
+
+    <ion-row>
+      <ion-col>
+        <ion-button color="success" expand="full">Cadastrar</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

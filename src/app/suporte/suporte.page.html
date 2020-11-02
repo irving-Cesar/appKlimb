@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ionbackbutton (click)="voltar()" text="">
+            <ion-icon id="botao-back-header" name="arrow-back" ></ion-icon>
+        </ionbackbutton>
+    </ion-buttons>
+    <ion-title id="title">Suporte</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+  <ion-grid>
+
+    <ion-col>
+      <div class="imagem">
+        <img src="https://www.flaticon.com/svg/static/icons/svg/584/584093.svg"/>
+      </div>
+    </ion-col>
+    
+    <ion-col>
+      <div id="label-text">
+        <h4>Caso tenha alguma dúvida ou queria reportar algum problema, Contate-nos!</h4>
+      </div>
+    </ion-col>
+
+    <ion-col class="teste">
+      <h4 id="top-email">Email</h4>
+    </ion-col>
+
+    <ion-row>
+      <ion-col >
+        <ion-item class="email">
+          <ion-label class="label-item-email" >klimbSuporte@klimbapp.com.br</ion-label>
+          <ion-icon name="at" slot="start"></ion-icon>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-col class="teste">
+      <h4 id="top-telefone">Telefone</h4>
+    </ion-col>
+
+    <ion-row>
+      <ion-col>
+        <ion-item class="telefone">
+          <ion-label class="label-item-telefone">(71) 98654-2684</ion-label>
+          <ion-icon name="call" slot="start"></ion-icon>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+
+</ion-content>
