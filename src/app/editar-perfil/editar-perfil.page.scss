@@ -1,0 +1,61 @@
+ion-toolbar {
+    --background: #14c54f;
+}
+
+//botão 'voltar'
+.back-item {
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+
+//Titulo    
+    .titulo {
+        position: relative;
+        right: -10px;
+        font-size: 20px;
+    
+    }
+
+
+
+//input
+.inputName1 {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+   
+}
+
+.inputName2 {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    height: 100px;
+    width: 100%
+}
+
+//Imagem Icon 
+    .img-icon {
+        height: 4em;
+        width: 4em;
+        margin-top: 5em;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+//texto
+.texto{
+    text-indent: 10px;
+    right: 15px;
+    text-align: justify;
+}

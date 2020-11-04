@@ -1,0 +1,25 @@
+// #CSS DEGRADE
+  ion-toolbar {
+    --background: rgba(0, 173, 0, 1);
+}
+
+ion-content.background {
+    --background: linear-gradient(197deg, rgba(0, 173, 0, 1) 0%, rgba(0, 173, 0, 1) 13.5%, rgba(0, 173, 0, 1) 33.33%, rgba(115, 130, 115, 1) 100%) !important;
+}
+
+//Botão
+    .botao1{
+        --border-radius: 20px;
+    }
+
+    .botao2{
+        --border-radius: 20px;
+    }
+
+    .botao3{
+        --border-radius: 20px;
+    }
+
+    .botao4{
+        --border-radius: 20px;
+    }

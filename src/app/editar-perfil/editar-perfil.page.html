@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" >
+      <ionbackbutton (click)="Voltar()" text="">
+        <ion-icon color='dark' class='back-item' name="arrow-back" style="margin-left: 25px;"></ion-icon>
+      </ionbackbutton>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <b class="titulo">Edite seu perfil</b>
+  </ion-grid>
+
+  <ion-grid>
+    <p>Nome completo</p>
+    <ion-input class='inputName1' type='string' ></ion-input>
+  </ion-grid>
+  
+  <ion-grid>
+    <p>Email</p>
+    <ion-input class='inputName1' type='string' ></ion-input>
+  </ion-grid>
+
+  <ion-grid>
+    <p>Bio</p>
+    <ion-input class='inputName2' type='string' ></ion-input>
+  </ion-grid>
+
+  <ion-row>
+  <b class='titulo'>Foto de perfil:</b> 
+  <ion-img class='img-icon' src='https://www.flaticon.com/svg/static/icons/svg/570/570975.svg'></ion-img>
+  </ion-row>
+
+
+<!-- OPÇÃO TROCAR SENHA -->
+  <ion-grid>
+    <b class="titulo">Deseja trocar sua senha ?</b>
+  </ion-grid>
+
+  <ion-row>
+    <p text-align='justify' class="texto">*Caso não queira trocar de senha não é necessário preencer os campos abaixo</p>
+  </ion-row>
+
+  <ion-grid> 
+    <p>Nova senha</p>
+    <ion-input class='inputName1' type='password' ></ion-input>
+  </ion-grid>
+
+  <ion-grid> 
+    <p>Confirmar senha</p>
+    <ion-input class='inputName1' type='password' ></ion-input>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-button color='success' expand='block'> Salvar </ion-button>
+  </ion-grid>
+
+</ion-content>
+
+
+
